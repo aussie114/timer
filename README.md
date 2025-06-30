@@ -1,4 +1,4 @@
-## Example
+## Timer
 ![screenshot.png](https://github.com/aussie114/timer/blob/master/data/screenshot.png)  
 
 ## Dependencies  
