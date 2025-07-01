@@ -45,7 +45,8 @@ gboolean on_timeout(gpointer user_data)
 
 	if (time_remaining < 0)
 	{
-		system("mpv /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga");
+		GtkMediaStream * alarm_sound = gtk_media_file_new_for_filename("/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga");
+		gtk_media_stream_play(alarm_sound);
 		return false;
 	}
 

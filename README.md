@@ -3,8 +3,6 @@
 
 ## Dependencies  
 GTK4  
-mpv  
-/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga
 
 ## About  
 This is a timer  
