@@ -43,7 +43,7 @@ int main (int argc, char ** argv)
 
 	argc = 1;
 
-	program = gtk_application_new ("org.gtk.example", G_APPLICATION_NON_UNIQUE);
+	program = gtk_application_new (NULL, G_APPLICATION_DEFAULT_FLAGS);
 	g_signal_connect (program, "activate", G_CALLBACK (activate), &data);
 	status = g_application_run (G_APPLICATION (program), argc, argv);
 	g_object_unref (program);
