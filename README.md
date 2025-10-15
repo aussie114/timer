@@ -1,4 +1,4 @@
-## Percentage Calculator  
+## Timer
 ![screenshot.png](https://github.com/aussie114/interval_timer/blob/master/screenshots/screenshot.png)  
 
 ## About  
