@@ -5,7 +5,7 @@
 This program is a timer  
 
 ## Requirement  
-python tkinter  
+SDL3 PulseAudio
 
 ## Usage  
 Timer is set by a run time argument formatted like 00:00:00 or 00:00 or 00  
